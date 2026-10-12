@@ -61,6 +61,25 @@ The permutation-ablation experiment produced these mean accuracy drops:
 
 These results suggest that the trained model was more sensitive to permutation of the XOR feature group in this particular experiment. However, the difference was not statistically significant in the separate simple-only versus XOR-only accuracy comparison.
 
+### Additional Experiments: Learning Curves and Noise Robustness
+
+**Learning curves:** Simple-only and XOR-only neural networks were evaluated at multiple training checkpoints to compare their learning trajectories.
+
+**Noise robustness:** Noise probabilities of 0.05, 0.15, 0.25, and 0.35 were tested.
+
+At noise 0.25:
+- Simple-only accuracy: 75.36%
+- XOR-only accuracy: 75.28%
+
+At noise 0.35:
+- Simple-only accuracy: 64.48%
+- XOR-only accuracy: 65.29%
+
+The results suggest that performance decreases at higher noise levels in this synthetic setup. These findings are preliminary and do not establish a universal preference for simple or nonlinear features.
+
+**Supporting data:** See `results/learning_curves.csv` and `results/noise_robustness.csv`.
+
+
 ### 7. Interpretation
 
 The current evidence does not establish a general preference for simple features.
