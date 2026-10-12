@@ -98,6 +98,28 @@ These findings are exploratory. Standalone accuracy and permutation importance m
 - Accuracy differences alone do not directly measure the order in which features are learned.
 - The current analysis does not establish a universal property of neural networks.
 
+
+### Additional Experiments: Learning Curves and Noise Robustness
+
+The learning-curve experiment compares the test accuracy of simple-only and XOR-only MLPs across training checkpoints.
+
+The robustness experiment evaluates noise probabilities of 0.05, 0.15, 0.25, and 0.35.
+
+At noise 0.25:
+- Simple-only accuracy: 75.36%
+- XOR-only accuracy: 75.28%
+
+At noise 0.35:
+- Simple-only accuracy: 64.48%
+- XOR-only accuracy: 65.29%
+
+Performance decreased at higher noise levels in this synthetic setup. These results are preliminary and do not establish a universal preference for simple or nonlinear features.
+
+Supporting data:
+- `results/learning_curves.csv`
+- `results/noise_robustness.csv`
+
+
 ### 9. Future Work
 
 Future experiments should include:
