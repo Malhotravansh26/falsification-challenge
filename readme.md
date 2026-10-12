@@ -98,3 +98,20 @@ and software versions.
 - [Baseline comparison](figures/baseline_comparison.png)
 - [Learning curves](figures/learning_curves.png)
 - [Noise robustness](figures/noise_robustness.png)
+
+## Experimental Artifacts
+
+### Results
+- [Model comparison](results/experiment_results.csv)
+- [Feature ablation](results/ablation_results.csv)
+- [Baseline comparison](results/baseline_comparison.csv)
+- [Learning curves](results/learning_curves.csv)
+- [Noise robustness](results/noise_robustness.csv)
+
+### Figures
+- [Model comparison](figures/model_comparison.png)
+- [Feature ablation](figures/feature_ablation.png)
+- [Full model accuracy](figures/full_accuracy.png)
+- [Baseline comparison](figures/baseline_comparison.png)
+- [Learning curves](figures/learning_curves.png)
+- [Noise robustness](figures/noise_robustness.png)
